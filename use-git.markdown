@@ -11,6 +11,9 @@
 - 命令 `git config user.email ""`
 - 命令 `git config --global user.name ""` (全局用户信息）
 - 命令 `git config --global user.email ""`
+- 命令 `git config http:proxy http://proxy.com:8080` (局部设置http代理)
+- 命令 `git config --global http:proxy http://proxy.com:8080` (全局设置http代理)
+- 命令 `git config https:proxy http://proxy.com:8080` (局部设置https代理)
 
 ### 查看配置信息
 - 命令 `git confit --list`
