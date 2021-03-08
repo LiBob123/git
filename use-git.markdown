@@ -62,6 +62,11 @@
 - 命令 `git checkout -b 分支名` 创建分支并切换到该分支
 - 命令 `git merge 分支名` 把指定的分支合并到当前分支上
 - 命令 `git branch -d 分支名` 删除指定分支
+- 命令 `git remote -v` 显示所有的远程仓库
+- 命令 `git remote add [remoteName] [url]` 添加远程仓库
+- 命令 `git remote remove [remoteName]` 删除远程仓库
+- 命令 `git remote rename old_name new_name` 修改仓库名
+- 命令 `git remote show [remoteName]` 显示某个远程仓库的信息
 
 ## Github 和 Git
 - github是一个网站, 提供了git服务器的功能
